@@ -34,8 +34,13 @@ int division(){
     scanf("%d",&number1);
        printf("entre le valeur Number 2:");
     scanf("%d",&number2);
-    int resulta = number1/number2;
-    printf("resluta de la division \n %d",resulta);
+    if (number2!=0){
+       int resulta = number1/number2;
+    printf("resluta de la division \n %d",resulta);  
+    }else{
+        printf("number2 contaire 0");
+    }
+   
 }
 int main() {
     // Write C code here
